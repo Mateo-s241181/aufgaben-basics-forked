@@ -5,9 +5,11 @@ import "fmt"
 func ExampleCount() {
 	s1 := []string{"a", "b", "a", "c", "b", "a"}
 
-	fmt.Println(Count(s1, "a"))
-	fmt.Println(Count(s1, "b"))
-	fmt.Println(Count(s1, "c"))
+	counter := 0
+
+	fmt.Println(Count(s1, "a", counter))
+	fmt.Println(Count(s1, "b", counter))
+	fmt.Println(Count(s1, "c", counter))
 
 	// Output:
 	// 3
