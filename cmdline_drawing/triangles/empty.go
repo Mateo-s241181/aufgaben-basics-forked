@@ -7,7 +7,7 @@ package triangles
 // vertikal bzw. horizontal verlaufen.
 // Der Rand des Dreiecks soll aus `#`-Zeichen bestehen, der Innenraum soll leer sein.
 func DrawEmptyTriangle(length int) {
-	// TODO
+	DrawTriangle(length, " ", "#")
 }
 
 // REMARKS
